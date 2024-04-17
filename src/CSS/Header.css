@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_link{
+    text-decoration: none;
+    color: #504e4e;
+    border: none;
+    background: none;
+}
+
+.nav_link:hover {
+    color: rgb(66, 152, 66);
+
+}
+
+.nav-btn{
+    padding: 3px;
+    border: none;
+    background: none;
+    
+}
+
+.nav-bot-link {
+    margin-left: 30px;
+    display: flex;
+}
+
+.custom-bg-color {
+    color: #000;
+}
+#myDiv {
+    display: block;
+    transition: opacity 0.5s ease-in-out; /* Sử dụng transition để làm mờ mịn hiệu ứng */
+  }
+  
+  .hide {
+    opacity: 0; /* Thiết lập opacity thành 0 để ẩn thẻ div */
+  }
+
+.fixed-top {
+    background-color: none;
+}
+
+
+
